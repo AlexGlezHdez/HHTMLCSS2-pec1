@@ -10,7 +10,11 @@
  * Write any other JavaScript below
  */
 
-+( function() {
++(function () {
   const university = "UOC";
   console.log(`Hello, ${university}!`);
-} )();
+})();
+
+import Splide from "@splidejs/splide";
+
+new Splide(".splide", { type: "fade", wheel: true }).mount();
