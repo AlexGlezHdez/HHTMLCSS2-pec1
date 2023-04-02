@@ -5,7 +5,6 @@ html {
 
 
 
-
 * {
   box-sizing: border-box;
 }
@@ -28,6 +27,7 @@ body {
   padding: 2rem;
   margin: auto;
   text-align: center;
+//  text-align: left;
   background-color: #fff;
   border-radius: 2rem;
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
@@ -63,3 +63,81 @@ body {
   font-size: 0.75rem;
   text-align: center;
 }
+
+
+.imagen-carousel {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+
+
+h1 {
+  font-size: $tamanyo-encabezado;
+}
+
+h2 {
+  font-size: $tamanyo-encabezado - 0.2;
+  margin: {
+    bottom: 1rem;
+  }
+}
+
+h3 {
+  font-size: $tamanyo-encabezado - 0.5;
+}
+
+
+
+p {
+
+}
+
+
+
+//
+// CABECERA
+//
+
+.cabecera {
+  margin-bottom: 2rem;
+  text-align: center;
+
+  .uoc-logo {
+    max-width: 250px;
+    background-color: white;
+  }
+
+  .enlace {
+    font-size: 1.2rem;
+    color: $uoc-corporate;
+    font-weight: 700;
+
+    &:hover{
+      color: #000;
+    }
+  }
+
+
+}
+
+
+//
+// CUERPO
+//
+
+section {
+  margin-bottom: 2rem;
+}
+
+
+.enlaces-interes {
+  text-align: left;
+}
+
+
+//
+// PIE
+//
+
