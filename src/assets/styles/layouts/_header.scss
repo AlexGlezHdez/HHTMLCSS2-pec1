@@ -12,11 +12,14 @@
         width: 100%;
     }
 
-
     @media (min-width: $mqMinWidthDesktop) {
       display: flex;
       justify-content: space-between;
       align-items: center;
+      padding: {
+        right: 1rem;
+        left: 1rem;
+      }
     }
 
     .uoc-logo {
@@ -30,6 +33,9 @@
         justify-content: space-evenly;
       }
 
+      @media (min-width: $mqMinWidthTablet) {
+        gap: 1.5rem;
+      }
     }
 
     .enlace {
