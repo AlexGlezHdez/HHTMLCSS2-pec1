@@ -36,7 +36,11 @@ body {
   @media (min-width: $mqMinWidthTablet) {
     padding: 2rem;
   }
+}
 
+%figura {
+  margin-bottom: 1.5rem;
+  text-align: right;
 }
 
 
@@ -81,12 +85,6 @@ body {
   text-align: center;
 }
 
-
-.imagen-carousel {
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
-}
 
 
 
@@ -140,8 +138,7 @@ p {
 }
 
 .figura {
-  margin-bottom: 1.5rem;
-  text-align: right;
+  @extend %figura;
 }
 
 .imagen {
@@ -181,10 +178,48 @@ p {
   display: inline-block;
 }
 
-.enlaces-interes {
-  text-align: left;
+
+// Galeria
+
+.figura-galeria {
+  @extend %figura;
+
+  width: 100%;
+  height: calc(100% - 1.5rem);
 }
 
+
+
+.imagen-carousel {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+// Enlaces
+
+.enlaces-interes {
+  max-width: max-content;
+
+  text-align: left;
+  padding: {
+    right: 30px;
+    left: 30px;
+  }
+  margin: auto;
+
+  color: $color-contraste;
+  list-style-type: square;
+  list-style-position: outside;
+
+  .enlace  {
+    color: $color-contraste;
+
+    &:hover {
+      color: $uoc-corporate;
+    }
+  }
+}
 
 
 

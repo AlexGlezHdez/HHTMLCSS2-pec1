@@ -1,6 +1,6 @@
-//
-// CABECERA
-//
+/*
+ * CABECERA
+ */
 
 .cabecera {
     @extend %contenedor;
@@ -14,8 +14,8 @@
 
     @media (min-width: $mqMinWidthDesktop) {
       display: flex;
-      justify-content: space-between;
       align-items: center;
+      justify-content: space-between;
       padding: {
         right: 1rem;
         left: 1rem;
@@ -40,8 +40,8 @@
 
     .enlace {
       font-size: 1.2rem;
-      color: $uoc-corporate;
       font-weight: 700;
+      color: $uoc-corporate;
 
       &:hover{
         color: #000;
