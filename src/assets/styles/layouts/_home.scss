@@ -2,9 +2,6 @@ html {
   scroll-behavior: smooth;
 }
 
-
-
-
 * {
   box-sizing: border-box;
 }
@@ -92,9 +89,9 @@ body {
 @import "header";
 
 
-//
-// CUERPO
-//
+/*
+ * CUERPO
+ */
 
 @mixin encabezados($tamanyo) {
   h1 {
@@ -137,6 +134,7 @@ p {
   margin-bottom: 1rem;
 }
 
+// Figuras en el documento
 .figura {
   @extend %figura;
 }
@@ -149,22 +147,21 @@ p {
 }
 
 .subtitulo {
-  font-size: 0.7rem;
+  font-size: .7rem;
   padding-right: 1rem;
 }
 
+
+// Ficha del monumento
 .ficha {
   text-align: left;
   max-width: 480px;
   margin: auto;
-  font: 0.8rem;
-  line-height: 1.1rem;
-
-
+  line-height: 1.25rem;
 }
 
 .dato:not(nth-last-of-type) {
-  margin-bottom: 0.5rem;
+  margin-bottom: .3rem;
 }
 
 .etiqueta {
@@ -180,6 +177,16 @@ p {
 
 
 // Galeria
+
+// Modificamos ligeramente el theme de SplideJS
+.splide {
+  padding: {
+    top: 1em;
+    right: 2.5em;
+    bottom: 2.5em;
+    left: 2.5em;
+  }
+}
 
 .figura-galeria {
   @extend %figura;
@@ -222,15 +229,15 @@ p {
   list-style-type: square;
   list-style-position: outside;
 
-  .enlace  {
-    color: $color-contraste;
-
-    &:hover {
-      color: $uoc-corporate;
-    }
-  }
 }
 
+.enlace  {
+  color: $color-contraste;
+
+  &:hover {
+    color: $uoc-corporate;
+  }
+}
 
 
 //
