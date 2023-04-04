@@ -185,10 +185,20 @@ p {
   @extend %figura;
 
   width: 100%;
-  height: calc(100% - 1.5rem);
+  height: 100%;
+
+  .subtitulo {
+    display: none;
+  }
+
+  @media (min-width: $mqMinWidthTablet) {
+    height: calc(100% - 1.5rem);
+
+    .subtitulo {
+      display: inherit;
+    }
+  }
 }
-
-
 
 .imagen-carousel {
   height: 100%;
