@@ -1,3 +1,21 @@
+# Herramientas HTML y CSS II
+
+## PEC 1
+
+### agonzalezhernan@uoc.edu
+
+### Alejandro González Hernández
+
+---
+
+Esta página corresponde al primer ejercicio evaluable de la asignatura *Herramientas HTML y CSS II* del *Máster Universitario en Desarrollo de sitios y aplicaciones web*.
+
+Para su realización se ha utilizado la plantilla provista en la asignatura **UOC Boilerplate**, cuyo documento *README.md* se adjunta a continuación.
+
+---
+---
+
+
 # UOC Boilerplate
 
 UOC Boilerplate is a starter template for the HTML and CSS Tools courses from the [Master's Program in Multimedia Applications](https://estudis.uoc.edu/ca/masters-universitaris/aplicacions-multimedia/presentacio) and the [Master's Program in Web App and Website Development](https://estudis.uoc.edu/ca/masters-universitaris/desenvolupament-llocs-aplicacions-web/presentacio) at the [Universitat Oberta de Catalunya](https://www.uoc.edu). It aims to provide a basic, modern frontend web development starter pack based on Parcel and including a Sass compiler, an ES6 transpiler, minifiers, an image transformer, and development tools.

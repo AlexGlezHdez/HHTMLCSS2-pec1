@@ -78,15 +78,11 @@ body {
 }
 
 @mixin encabezados($tamanyo) {
-  h1 {
-    font-size: $tamanyo;
-  }
-  h2 {
-    font-size: $tamanyo - 0.3;
-  }
-  h3 {
-    font-size: $tamanyo - 0.6;
-  }
+  h1 { font-size: $tamanyo; }
+
+  h2 { font-size: $tamanyo - 0.3; }
+
+  h3 { font-size: $tamanyo - 0.6; }
 }
 
 @include encabezados(1.75em);
