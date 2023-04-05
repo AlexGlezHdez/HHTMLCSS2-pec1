@@ -21,31 +21,25 @@
         left: 1rem;
       }
     }
+}
 
-    .uoc-logo {
-      max-width: 250px;
-      background-color: white;
-    }
-
-    .enlaces {
-      @media (min-width: $mqMinWidthTablet) {
-        display: flex;
-        justify-content: space-evenly;
-      }
-
-      @media (min-width: $mqMinWidthTablet) {
-        gap: 1.5rem;
-      }
-    }
-
-    .enlace {
-      font-size: 1.2rem;
-      font-weight: 700;
-      color: $uoc-corporate;
-
-      &:hover{
-        color: #000;
-      }
-    }
-
+.enlaces {
+  @media (min-width: $mqMinWidthTablet) {
+    display: flex;
+    justify-content: space-evenly;
   }
+
+  @media (min-width: $mqMinWidthTablet) {
+    gap: 1.5rem;
+  }
+}
+
+.enlace-cabecera {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: $uoc-corporate;
+
+  &:hover{
+    color: #000;
+  }
+}
